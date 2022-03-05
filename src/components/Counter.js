@@ -7,19 +7,6 @@ const Counter = () => {
   const showCounter = useSelector((state) => state.showCounter);
   const dispatch = useDispatch();
 
-  // const incrementHandler = () => {
-  //   dispatch({ type: "increment" });
-  // };
-  // const increaseHandler = () => {
-  //   dispatch({ type: "increase", value: 5 });
-  // };
-  // const decrementHandler = () => {
-  //   dispatch({ type: "decrement" });
-  // };
-  // const toggleCounterHandler = () => {
-  //   dispatch({ type: "toggle" });
-  // };
-
   const incrementHandler = () => {
     dispatch(actions.increment());
   };
